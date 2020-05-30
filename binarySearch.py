@@ -2,6 +2,8 @@
 def binarySearchRekursif(data, bil, start=0, end=None,hasil = []):
     if end is None:
         end = len(data) - 1
+        print('Data: ', data)
+        print('key:', bil)
     if start > end:
         return False
 
